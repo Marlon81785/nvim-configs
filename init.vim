@@ -8,7 +8,7 @@ Plug 'sheerun/vim-polyglot'
 call plug#end()
 
 colorscheme dracula
-
+hi Normal ctermfg=white ctermbg=black
 
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
